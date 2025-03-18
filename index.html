@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Figures Ordered List</title>
+</head>
+<body>
+    <!-- Ordered list with roman numerals -->
+    <ol type="I">
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <li>Fourth Item</li>
+        <li>Fifth Item</li>
+    </ol>
+
+    <!-- External image from pexels.com -->
+    <img src="https://images.pexels.com/photos/235222/pexels-photo-235222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="BMW-Image">
+    <br><br>
+    <!-- Table of 5 contacts -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>Wembley Square 2, 134 Solan Rd, Gardens, Cape Town, 8001</td>
+                <td>+27 11 797 4000</td>
+                <td>johndoe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>Waterfall City Heliport, 4 Lisbon Ln, Midrand, 2090</td>
+                <td>+9876543210</td>
+                <td>janesmith@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>12th Floor, 10 Rua Vasco Da Gama Plain, Foreshore, Cape Town, 8001</td>
+                <td>+27 87 362 4001</td>
+                <td>michaelbrown@example.com</td>
+            </tr>
+            <tr>
+                <td>Emily Davis</td>
+                <td>321 Pine St, Ogdenville</td>
+                <td>+6677889900</td>
+                <td>emilydavis@example.com</td>
+            </tr>
+            <tr>
+                <td>Chris Wilson</td>
+                <td>654 Maple St, North Haverbrook</td>
+                <td>+4455667788</td>
+                <td>chriswilson@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+<!-- Registration form -->
+<form action="/submit" method="post">
+
+    <!-- Name field -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br><br>
+
+    <!-- Email field -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <!-- Password field -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    <br><br>
+
+    <!-- Date field -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    <br><br>
+
+    <!-- Dropdown -->
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+        <option value="">Select your country</option>
+        <option value="usa">United States</option>
+        <option value="uk">United Kingdom</option>
+        <option value="za">South Africa</option>
+        <option value="in">India</option>
+    </select>
+    <br><br>
+
+    <!-- Radio buttons -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label>
+    <br><br>
+
+    <!-- Checkboxes -->
+    <label>Interests:</label>
+    <input type="checkbox" id="sports" name="interests" value="sports">
+    <label for="sports">Sports</label>
+    <input type="checkbox" id="music" name="interests" value="music">
+    <label for="music">Music</label>
+    <input type="checkbox" id="travel" name="interests" value="travel">
+    <label for="travel">Travel</label>
+    <br><br>
+
+    <!-- Submit button -->
+    <button type="submit">Register</button>
+</form>
+
+</body>
+</html>
